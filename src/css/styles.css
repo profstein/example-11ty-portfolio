@@ -239,6 +239,19 @@ button {
 }
 /* end @media screen and (max-width: 834px) */
 
+
+.container > *{
+ margin: 0 1rem;
+}
+.container .featured-image{
+  margin: 0;
+}
+.container p{
+  max-width: 70ch;
+  margin: 0 auto 1rem auto;
+}
+
+
 /* FOOTER */
 
 footer div.social-media-links {
