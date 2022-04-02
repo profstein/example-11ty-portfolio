@@ -4,7 +4,7 @@ layout: base.njk
 tags: navItem
 ---
   <main>
-    <div class="container">  
+    <div class="contact-container">  
       <form id="contact" action="" method="post">
         <h3>Quick Contact</h3>
         <h4>Contact me, I'd love to hear from you!</h4>
@@ -24,9 +24,6 @@ tags: navItem
           <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
         </fieldset>
       </form>
-     
-      
     </div>
-
     <p class="credits">HTML/CSS modified FROM: <a href="https://codepen.io/ssbalakumar/pen/bGwwaG">https://codepen.io/ssbalakumar/pen/bGwwaG</a></p>
   </main>
