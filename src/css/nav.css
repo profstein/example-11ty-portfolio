@@ -1,0 +1,67 @@
+nav{
+    position:absolute;
+    top:80px;
+    right:35px;
+    
+  }
+  nav li{
+  display:inline-block;
+  margin:10px;
+  font-size:18px;
+  color:#fff;
+  
+  }
+
+  @media screen and (min-width: 600px){
+    nav li{
+        margin:20px;
+        font-size: 20px;
+    }
+  }
+
+  nav a:hover, nav li:hover{
+    color:#aa64e3;
+  }
+
+  nav ul{
+    list-style-type:none;
+     
+   }
+   nav a{
+     /*display:inline-block;/*一块一块的让导航看起来 it makes navigation look like block*/
+     text-decoration:none;
+     color:#fff;}
+
+/* drop menue star here*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* hide the drop content*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top:55px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a, .dropdown-content a:visited {
+    color: black;
+    padding: 20px 16px;
+    
+    font-size:16px;
+    text-decoration: none;
+    display: block;
+}
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content a:hover {
+  background-color: #ede5ff}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* css for drop menue end here*/

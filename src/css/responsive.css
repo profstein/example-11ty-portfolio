@@ -1,0 +1,42 @@
+/*  ==========================
+    BASE RESPONSIVE
+    ========================== */
+
+/* Use border-box box-sizing. This isn't strictly necessary with CSS Grid but can be helpful if you're using a float fallback and it tends to be more intuitive.*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/* This is basic way to make images responsive. This means if they're larger than their container they will shrink to fit it. Not a complete solution to responsive images. */
+
+img, video {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+/*RESPONSIVE VIDEO
+See for more info: https://codepen.io/profstein/pen/mrMLRj
+*/
+.videoWrapper{
+    position: relative;
+    height: 0;
+    /* padding-bottom: 75%; */ /* 4:3 aspect ratio */
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+}
+
+.videoWrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+}

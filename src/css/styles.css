@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=League+Gothic&display=swap");
+
+/* LinKS */
+a,
+a:visited {
+  color: #eee;
+}
+
+body {
+  color: #fff;
+  background-color: #1f1e1f;
+}
+
+#span {
+  font-size: 72px;
+  margin: 20px;
+  padding: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  animation: text 2s 1;
+  background-image: url(https://media1.giphy.com/media/xT0xepIsg7kK2ZZO0g/giphy.gif);
+}
+
+#span2 {
+  font-size: 62px;
+  margin: 20px;
+  padding: 10px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.herotext {
+  max-width: 100%;
+  color: #fff;
+  left: 50%;
+  top: 20%;
+  /* transform: translate(-50%,-50%); /*隐藏作用：如果没有用transform方式进行居中显示，则width：100%会向右侧延申，左侧为空*/
+  width: 100%;
+}
+@keyframes text {
+  0% {
+    color: #000;
+    margin-bottom: -40px;
+  }
+
+  20% {
+    letter-spacing: 20px;
+    margin-bottom: -40px;
+  }
+
+  85% {
+    letter-spacing: 10px;
+    margin-bottom: -40px;
+  }
+}
+
+header {
+  background-color: #1f1e1f;
+  height: 150px;
+  width: auto;
+  border-bottom: 3px solid;
+  color: #fff;
+}
+
+header h1 {
+  font-family: "League Gothic", sans-serif;
+  font-size: 40px;
+  position: absolute;
+  padding: 10px;
+  top: 65px;
+}
+
+footer {
+  background-color: #1f1e1f;
+  padding: 20px;
+}
+
+footer li {
+  display: inline-block;
+  position: relative;
+}
+
+.hero {
+  margin: 20px;
+  max-width: 100%;
+  color: #fff;
+}
+
+.home {
+  font-family: "League Gothic", sans-serif;
+  font-size: 30px;
+  background-color: #1f1e1f;
+  width: auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+  place-items: center;
+}
+
+footer {
+  background-color: #1f1e1f;
+  color: #fff;
+}
+
+main {
+  background-color: #1f1e1f;
+}
+
+.homeproject,
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  margin: auto;
+  padding: 10px;
+  max-width: 1200px;
+}
+
+.cards .cards_header {
+  grid-column: 1/-1;
+}
+
+.card {
+  border: 1px solid black;
+  margin: 10px;
+  background-color: #dedede;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+}
+.cards h3 {
+  margin-top: 0;
+}
+.card_img {
+  overflow: hidden;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.card_text {
+  font-size: 14px;
+  margin: 20px 0;
+  color: #fff;
+}
+
+button {
+  background-color: #ff94c8;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.home_contact {
+  display: grid;
+  padding: 60px;
+}
+
+.about_main{
+  padding: 1rem;
+}
+
+.about_container{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.credits{
+  padding: 1rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about_main{
+    padding: 3rem;
+  }
+
+  .about_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+
+}
+/* end @media screen and (min-width: 600px) */
+
+/* change to min-width later */
+@media screen and (max-width: 834px) {
+  header h1 {
+    position: absolute;
+    padding: 10px;
+    top: 5px;
+  }
+  img {
+    max-width: 100%;
+  }
+  .home {
+    display: block;
+    justify-content: center;
+  }
+
+  body {
+    max-width: 100%;
+  }
+
+  .homeproject {
+    max-width: 100%;
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .homeproject img {
+    max-width: 100%;
+  }
+  .card {
+    max-width: 100%;
+  }
+  .pjcard {
+    max-width: 100%;
+  }
+  div {
+    place-items: center;
+  }
+}
+/* end @media screen and (max-width: 834px) */
+
+/* FOOTER */
+
+footer div.social-media-links {
+  background: #323b40;
+  overflow: hidden;
+  padding-bottom: 4px;
+  text-align: center;
+}
+footer div.social-media-links ul {
+  margin: 0;
+  padding: 0;
+}
+footer div.social-media-links li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+footer div.social-media-links a {
+  border-bottom: 0px solid rgba(0, 0, 0, 0.95);
+  border-radius: 4px;
+  box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0), 0 6px 8px rgba(0, 0, 0, 0),
+    0 24px 24px rgba(0, 0, 0, 0), 0 36px 36px rgba(0, 0, 0, 0),
+    0 64px 64px rgba(0, 0, 0, 0), 0 64px 128px rgba(0, 0, 0, 0),
+    0 120px 0 rgba(0, 0, 0, 0), 0 86px 8px 6px rgba(0, 0, 0, 0);
+  display: inline-block;
+  height: 30px;
+  padding: 20px;
+  position: relative;
+  transition: 0.2s ease-in;
+  width: 30px;
+}
+footer div.social-media-links a svg {
+  left: 20px;
+  position: absolute;
+  top: 20px;
+  height: 30px;
+  width: 30px;
+}
+footer div.social-media-links a svg.glow path,
+footer div.social-media-links a svg.glow circle {
+  fill: rgba(0, 0, 0, 0);
+}
+footer div.social-media-links a svg path,
+footer div.social-media-links a svg circle {
+  fill: #0096a1;
+  transition: 0.2s ease-in;
+}
+footer div.social-media-links a:hover {
+  transform: translateY(-4px);
+  box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.1), 0 6px 8px rgba(0, 0, 0, 0.05),
+    0 24px 24px rgba(0, 0, 0, 0.05), 0 36px 36px rgba(0, 0, 0, 0.05),
+    0 64px 64px rgba(0, 0, 0, 0.15), 0 64px 128px rgba(0, 0, 0, 0.15),
+    0 86px 8px 6px rgba(14, 186, 199, 0.25),
+    0 83px 4px 0px rgba(14, 186, 199, 0.95);
+}
+footer div.social-media-links a:hover svg.glow {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><f…ter id="filter"><feGaussianBlur stdDeviation="10" /></filter></svg>#filter');
+  filter: blur(2px);
+}
+footer div.social-media-links a:hover svg.glow path,
+footer div.social-media-links a:hover svg.glow circle {
+  fill: rgba(14, 186, 199, 0.6);
+}
+footer div.social-media-links a:hover svg path,
+footer div.social-media-links a:hover svg circle {
+  fill: #0ebac7;
+}
