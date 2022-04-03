@@ -1,7 +1,7 @@
 ---
 title: Course
 layout: base.njk
-tags: navItem
+tags: work
 ---
 
 <main>

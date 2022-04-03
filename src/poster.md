@@ -1,7 +1,7 @@
 ---
 title: Poster
 layout: base.njk
-tags: navItem
+tags: work
 ---
   <main>
     <section class="container">

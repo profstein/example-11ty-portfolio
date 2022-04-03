@@ -1,7 +1,7 @@
 ---
 title: Contact
 layout: base.njk
-tags: navItem
+tags: work
 ---
   <main>
     <div class="contact-container">  

@@ -1,7 +1,10 @@
 ---
 title: Responsive
 layout: base.njk
-tags: navItem
+tags: ['work', 'design']
+postImg: "daniel-korpai-mxPiMiz7KCo-unsplash.jpg"
+postImgAlt: "alt text"
+description: "Brief Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis expedita fuga molestiae ullam magni. Velit. "
 ---
 
   <main>

@@ -1,7 +1,10 @@
 ---
 title: Basketball
 layout: base.njk
-tags: navItem
+tags: ['work', 'design']
+postImg: "ilnur-kalimullin-kP1AxmCyEXM-unsplash.jpg"
+postImgAlt: "alt text"
+description: "Brief Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis expedita fuga molestiae ullam magni. Velit. "
 ---
 <main>
     <section class="container">

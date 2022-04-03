@@ -1,7 +1,7 @@
 ---
 title: Cardsort
 layout: base.njk
-tags: navItem
+tags: work
 ---
 
   <main>
