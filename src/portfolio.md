@@ -1,7 +1,9 @@
 ---
 title: Portfolio Design
 layout: base.njk
-tags: ['work', 'design']
+tags: 
+  - work
+  - design
 postImg: "ben-kolde-bs2Ba7t69mM-unsplash.jpg"
 postImgAlt: "alt text"
 description: "Brief Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis expedita fuga molestiae ullam magni. Velit. "
