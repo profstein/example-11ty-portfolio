@@ -1,7 +1,9 @@
 ---
 title: Poster
 layout: base.njk
-tags: work
+tags: 
+  - work
+  - design
 ---
   <main>
     <section class="container">
