@@ -54,6 +54,18 @@ siteName: Example Portfolio
   {{ content | safe }}
 
   <footer>
+
+    <div class="posts">
+      <h3>All Work</h3>
+      <ul>
+        {% for page in collections.work %}
+        <li>
+          <a href="{{ page.url }}"> {{ page.data.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
     <div class="social-media-links">
       <ul>
         <li>
