@@ -41,4 +41,17 @@ tags: navItem
         <button type="submit">Contact Me</button>
       </form>
     </section>
+
+ <section class="all">
+    <h2 class="cards_header">All</h2>{% for page in collections.work %}
+    <div class="pjcard">
+      <div class="card_img">
+          <a href="{{page.url}}"><img src="/images/{{page.data.postImg}}" alt="{{page.data.postImgAlt}}"></a></div>
+      <div class="card_text">
+        <h3><a href="{{page.url}}">{{page.data.title}}</a></h3>
+        <p>{{page.data.description}}<p>
+      </div>
+    </div> 
+    </div>{% endfor %}
+ </section>
   </main>
