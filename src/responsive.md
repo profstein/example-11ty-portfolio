@@ -1,5 +1,5 @@
 ---
-title: Responsive
+title: Responsive Web Site
 layout: base.njk
 tags: ['work', 'design']
 postImg: "daniel-korpai-mxPiMiz7KCo-unsplash.jpg"
