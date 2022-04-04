@@ -1,7 +1,9 @@
 ---
 title: Wireframes
 layout: base.njk
-tags: work
+tags: 
+  - work
+  - ux
 postImg: "hal-gatewood-tZc3vjPCk-Q-unsplash.jpg"
 postImgAlt: "alt text"
 description: "Brief Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis expedita fuga molestiae ullam magni. Velit. "
