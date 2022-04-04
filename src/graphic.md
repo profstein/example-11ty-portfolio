@@ -4,7 +4,8 @@ layout: base.njk
 tags: navItem
 ---
 <main class="design cards">
-    <h2 class="cards_header">Graphic Design Projects</h2>{% for page in collections.design %}
+    <h2 class="cards_header">Graphic Design Projects</h2>
+    {%- for page in collections.design %}
     <div class="pjcard">
       <div class="card_img">
           <a href="{{page.url}}"><img src="/images/{{page.data.postImg}}" alt="{{page.data.postImgAlt}}"></a></div>
@@ -13,5 +14,6 @@ tags: navItem
         <p>{{page.data.description}}<p>
       </div>
     </div> 
-    </div>{% endfor %}
+    </div>
+    {%- endfor %}
 </main>

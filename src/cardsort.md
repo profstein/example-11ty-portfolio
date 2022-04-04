@@ -1,7 +1,9 @@
 ---
 title: Cardsort
 layout: base.njk
-tags: work
+tags: 
+  - work
+  - ux
 ---
 
   <main>

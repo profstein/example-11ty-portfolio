@@ -1,7 +1,12 @@
 ---
 title: Mobile
 layout: base.njk
-tags: ['navItem','work'] 
+tags: 
+  - work
+  - ux
+postImg: "alvaro-reyes-qWwpHwip31M-unsplash.jpg"
+postImgAlt: "alt text"
+description: "Brief Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis expedita fuga molestiae ullam magni. Velit. "
 ---
 <main>
     <section class="container">

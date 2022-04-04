@@ -4,6 +4,9 @@ layout: base.njk
 tags: 
   - work
   - design
+postImg: "martin-pechy-iXHdGk8JVYU-unsplash.jpg"
+postImgAlt: "alt text"
+description: "Brief Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis expedita fuga molestiae ullam magni. Velit. "
 ---
   <main>
     <section class="container">

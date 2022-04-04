@@ -1,7 +1,9 @@
 ---
 title: Course
 layout: base.njk
-tags: work
+tags: 
+  - work
+  - ux
 ---
 
 <main>
