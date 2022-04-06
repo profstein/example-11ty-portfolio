@@ -4,6 +4,8 @@ layout: base.njk
 tags: navItem
 ---
 
+link to <a href="/about">about page</a>
+
   <main>
     <section class="home">
       <div class="herotext">
